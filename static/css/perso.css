@@ -47,5 +47,9 @@ a:hover{
 	width : 100%;
 	height : 205px;
 	padding-top : 130px;
-	background : url(../img/present/entete_1.jpg);
+	background : url(../img/present/entete_2.jpg);
+}
+p{
+	text-align : justify;
+	
 }
