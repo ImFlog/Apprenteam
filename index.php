@@ -2,13 +2,10 @@
 <div class="container">
   <div class="row row-right">
     <div class="col-xs-12 col-sm-9">
-      <p class="pull-right visible-xs">
-        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-      </p>
       <div class="jumbotron">
         <p>L'apprenteam est l'association des apprentis de l'<span class="info">UTC</span>.
 	   Elle a pour rôle de fédérer les apprentis et promouvoir l'apprentissage à l'UTC.</p>
-	<p style="text-align : right;"><a href="/Apprenteam/formation.php">Futurs apprentis, découvrez nos formations...</a></p>
+	      <p style="text-align : right;"><a href="/Apprenteam/formation.php">Futurs apprentis, découvrez nos formations...</a></p>
       </div>
       <div class="row">
         <div class="col-6 col-sm-6 col-lg-4">
