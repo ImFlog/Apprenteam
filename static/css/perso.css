@@ -63,3 +63,13 @@ ul.main-content{
 p{
     text-align : justify;
 }
+
+.expand{
+    float: right;
+    vertical-align: middle;
+}
+
+.hide{
+    float: right;
+    vertical-align: middle;
+}
