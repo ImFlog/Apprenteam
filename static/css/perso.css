@@ -72,7 +72,6 @@ a:hover{
 	padding-top : 130px;
 	background : url(../img/present/entete_2.jpg);
 }
-
 p{
 	text-align : justify;
 	
@@ -113,3 +112,18 @@ tr:nth-child(even) td { background: #F1F1F1; }
 tr:nth-child(odd) td { background: #FEFEFE; }
 
 tr td:hover { background: #2D6ABC; color: #FFF; } /* Hover cell effect! */
+
+p.main-content{
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+ul.main-content{
+    margin-left: 40px;
+}
+p{
+    text-align : justify;
+}
