@@ -18,7 +18,7 @@
           <img src="static/img/present/livre.png" class="img-rounded" />
           <h2>FAQ</h2>
           <p>Découvrez toutes les réponses à toutes les questions que vous vous posez dans notre foire aux questions.</p>
-          <br /><br /><p><a class="btn btn-default" href="#" role="button">Réponses à vos questions</a></p>
+          <br /><br /><p><a class="btn btn-default" href="/Apprenteam/faq.php" role="button">Réponses à vos questions</a></p>
         </div>
         <div class="col-6 col-sm-6 col-lg-4">
           <img src="static/img/present/livre.png" class="img-rounded" />
@@ -28,17 +28,5 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
-      <div class="bs-docs-sidebar hidden-print" role="complementary">
-       <h3><span class="label label-default">Sites relatifs</span></h3>
-       <ul class="nav bs-docs-sidenav">
-        <li>
-          <li><a href="http://www.utc.fr/formations-enseignements/diplome-ingenieur-apprentissage.php" > Site de l'UTC Apprentissage</a></li>
-          <li><a href="http://www.irfa-apisup.fr/">Site du CFA IRFA API-SUP</a></li>
-          <li><a href="http://www.education.gouv.fr/cid155/se-former-par-l-apprentissage.html">Ministère de l'éducation</a></li>
-          <li><a href="https://www.utc.fr/utc_espacepresse/iso_album/catalogueuv_inge_unieurs_2013-2014_web.pdf" >Catalogue des UVs de l'UTC 2013/2014</a></li>
-        </li>
-      </ul>
-    </div>
-  </div>
+<?php require 'sidebar.html'; ?>
 <?php require 'footer.html'; ?>

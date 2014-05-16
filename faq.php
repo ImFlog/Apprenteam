@@ -1,4 +1,5 @@
 <?php require 'header.html'; ?>
+<!-- TODO foreach pour les textes simples -->
 <div class="container">
   <div class="row row-right">
     <div class="col-xs-12 col-sm-9">
@@ -289,18 +290,5 @@
         Pour tout autre question référez vous à la <a href="/Apprenteam/informations_administratives">section administrative</a> pour obtenir des adresses de contact.
       </p>
     </div>
-    <div class="col-md-3">
-      <div class="bs-docs-sidebar panel-body hidden hidden-print" role="complementary">
-        <h3><span class="label label-default">Sites relatifs</span></h3>
-        <ul class="nav bs-docs-sidenav">
-          <li>
-            <li><a href="http://www.utc.fr/formations-enseignements/diplome-ingenieur-apprentissage.php" > Site de l'UTC Apprentissage</a></li>
-            <li><a href="http://www.irfa-apisup.fr/">Site du CFA IRFA API-SUP</a></li>
-            <li><a href="http://www.education.gouv.fr/cid155/se-former-par-l-apprentissage.html">Ministère de l'éducation</a></li>
-            <li><a href="http://www.utc.fr/" >Catalogue des UVs de l'UTC 2013/2014</a></li>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <?php require 'footer.html'; ?>
+<?php require 'sidebar.html'; ?>
+<?php require 'footer.html'; ?>
