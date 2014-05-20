@@ -1,21 +1,20 @@
 <?php require 'header.html'; ?>
 
 <div class="container">
-	<h1> Ces entreprises font confiance à nos apprentis :</h1>
-	<div id="myCanvasContainer">
-		<canvas width="1000em" height="800em" id="myCanvas">
+	<div class="col-sm-9" id="myCanvasContainer">
+  <h1> Ces entreprises font confiance à nos apprentis :</h1>
+
+		<canvas style="text-align:center" width="900em" height="700em" id="myCanvas">
 			<p>Anything in here will be replaced on browsers that support the canvas element</p>
-			<ul id="liste">
-        <li> <a href ="www.gogole.fr"> google </a> </li>
-			</ul>
+			<ul id="liste"> </ul>
 		</canvas>
 	</div>
+
+<?php require 'sidebar.html'; ?>
 </div>
 
 
 <script type="text/javascript">
-
-
 window.onload = function() {
   var i;
   var tab = ["ADHOC PES FRANCE","AEROLIA","AIR FRANCE","AIRBUS","AIRCELLE","ALSTOM TRANSPORT","APTAR",
@@ -40,7 +39,7 @@ for (i = 0; i < tab.length ; i++) {
     TagCanvas.outlineColour = '#999999';    
     TagCanvas.wheelZoom = false;
     TagCanvas.minBrightness = 0;
-    TagCanvas.depth = 1.4
+    TagCanvas.depth = 1.3
 
 
 TagCanvas.Start('myCanvas');
@@ -50,4 +49,4 @@ TagCanvas.Start('myCanvas');
     }
   };
   </script>
-  <?php require 'footer.html'; ?>
+<?php require 'footer.html'; ?>

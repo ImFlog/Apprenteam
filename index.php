@@ -29,4 +29,5 @@
       </div>
     </div>
 <?php require 'sidebar.html'; ?>
+</div>
 <?php require 'footer.html'; ?>
