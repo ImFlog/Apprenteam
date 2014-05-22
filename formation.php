@@ -19,9 +19,7 @@
             <li>Les Techniques et Méthodes(TM) qui correspondent aux matières techniques et pratiques.</li>
             <li>Les Techniques et Sciences Humaines(TSH) qui correspondent aux matières sociales.</li>
           </ul>
-          <h3>Présentation en vidéo</h3>
-          <p class="main-content">AJOUTER LA VIDEO DE PRESENTATION AVEC LES PROFS ETC</p>
-          <h3>Spécialités</h3>
+          <h3>Départements</h3>
           <p class="main-content">
             L'individualisation du parcours est un des piliers fondateurs de la pédagogie de l'UTC.<br />
             Chaque apprenti quittera ainsi sa formation fort de compétences qui lui sont propres, tout en pouvant valoriser trois années d'expérience.<br/>
@@ -35,6 +33,9 @@
               Visitez les pages dédiées pour plus d'information sur le contenu et les spécificités qui y sont associés.
             </p>
             <h3>Rythme d'alternance</h3>
+            <img class="media-object" src="/Apprenteam/static/img/rythme.png" alt="Rythme apprentissage"/>
+            <img class="media-object" src="/Apprenteam/static/img/rythme_legend.png" alt="Légende" style="float: right; margin-right: 25px;"/>
+            <br /><br />
             <ul class="main-content">
               <li>Entreprise seulement durant les vacances lors de la première année.</li>
               <li>Un mois de cours pour un mois d'entreprise lors de la seconde.</li>
@@ -43,3 +44,4 @@
           </div>
           <?php require 'sidebar.html';?>
           <?php require 'footer.html'; ?>
+
