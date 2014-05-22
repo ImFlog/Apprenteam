@@ -41,5 +41,5 @@
               <li>Même rythme que la seconde année pour le premier semestre puis six mois en entreprise pour la dernière année.</li>
             </ul>
           </div>
-<?php require 'sidebar.html';?>
-<?php require 'footer.html'; ?>
+          <?php require 'sidebar.html';?>
+          <?php require 'footer.html'; ?>
