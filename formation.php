@@ -1,4 +1,4 @@
-<?php require 'header.html'; ?>
+<?php require 'header.php'; ?>
 <div class="container">
   <div class="row row-right">
     <div class="col-xs-12 col-sm-9">

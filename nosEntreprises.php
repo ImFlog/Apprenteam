@@ -1,4 +1,4 @@
-<?php require 'header.html'; ?>
+<?php require 'header.php'; ?>
 
 <div class="container">
 	<div class="col-sm-9" id="myCanvasContainer">
