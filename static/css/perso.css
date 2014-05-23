@@ -141,3 +141,10 @@ p{
   float: right;
   vertical-align: middle;
 }
+
+.container-canvas {
+        /* This could be done in one single declaration. See the extended sample. */
+        margin-right: auto;
+        margin-left: auto;
+        width: 800px;
+    }

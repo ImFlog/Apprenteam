@@ -1,12 +1,13 @@
 <?php require 'header.php'; ?>
 
 <div class="container">
-	<div class="row content">
-		<h1> L'apprentissage en mécanique </h1>
+	<div class="row row-right main-content">
+		<div class="col-xs-12 col-sm-9">
 
-		<div class="col-sm-8">
+			<h1> L'apprentissage en mécanique </h1>
+
 			<div class="col-sm-4 image"> 
-				<img src="static/img/computers.jpg" class="img-responsive" alt="Apprenteam" style=""/>
+				<img src="static/img/computers.jpg" class="img-responsive" alt="Apprenteam"/>
 			</div>
 			<p>L'apprentissage en mécanique a été créé à la rentrée 2008. Pionnière de l'apprentissage à l'UTC, elle est maintenant confortablement installée au sein de l'UTC. 
 				Le diplôme obtenu en apprentissage est exactement le même qu'en cursus classique.
@@ -15,8 +16,8 @@
 		</p>
 
 		<p>
-			<h3> Deux filières sont proposées : </h3>
-			<ul class="main-content">
+			<h3> Deux parcours sont proposées : </h3>
+			<ul>
 				<li> Conception</li> 
 				<li> Industrialisation </li>
 			</ul>
@@ -27,29 +28,18 @@
 
 </div>
 
-<div class="col-md-3 col-md-offset-1">
-	<div class="bs-docs-sidebar hidden-print" role="complementary">
-		<h3><span class="label label-default">En savoir plus</span></h3>
-		<ul class="nav bs-docs-sidenav">
-			<li>
-				<li><a href="http://www.utc.fr/formations-enseignements/diplome-ingenieur-apprentissage.php" > Site de l'UTC Apprentissage</a></li>
-				<li><a href="http://www.irfa-apisup.fr/">Site du CFA IRFA API-SUP</a></li>
-				<li><a href="http://www.education.gouv.fr/cid155/se-former-par-l-apprentissage.html">Ministère de l'éducation</a></li>
-				<li><a href="https://www.utc.fr/utc_espacepresse/iso_album/catalogueuv_inge_unieurs_2013-2014_web.pdf" >Catalogue des UVs de l'UTC 2013/2014</a></li>
-			</li>
-		</ul>
-	</div>
+<?php require 'sidebar.html';?>
 
-</div>
-<div class="row content">
+
+<div class="row">
 	<iframe width="640" height="360" src="//www.youtube.com/embed/ZbpulwbeQ5I" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div class="row content">
+<div class="row main-content">
 	<h3> Cours dispensés </h3>
 	<p> Chaque année, entre 8 et 10 enseignements sont à choisir parmis cette liste.</p>
 </div>
-<div class="row content">
+<div class="row main-content">
 	<div class="col-sm-6">
 
 
@@ -286,10 +276,4 @@
 		</div>
 
 	</div>
-
-
-
-
-
-
-	<?php require 'footer.html'; ?>>
+	<?php require 'footer.html'; ?>

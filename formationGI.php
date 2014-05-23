@@ -1,12 +1,12 @@
 <?php require 'header.php'; ?>
 
 <div class="container">
-	<div class="row content">
-		<h1> L'apprentissage en informatique </h1>
+	<div class="row row-right main-content ">
+		<div class="col-xs-12 col-sm-9">
+			<h1> L'apprentissage en informatique </h1>
 
-		<div class="col-sm-8">
 			<div class="col-sm-4 image"> 
-				<img src="static/img/computers.jpg" class="img-responsive" alt="Apprenteam" style=""/>
+				<img src="static/img/computers.jpg" class="img-responsive" alt="Apprenteam"/>
 			</div>
 			<p>L'apprentissage en informatique a été créé à la rentrée 2012, suite au succès rencontré par la formation en apprentissage en mécanique. Cette formation, forte de l'expérience de la branche informatique de la filière classique de l'UTC, garantit un niveau homogène sur les fondamentaux de la profession tout en préservant les qualités d'innovation, de capacité d'adaptation et d'intégration, valeurs fortes de l'UTC. Le diplôme obtenu en apprentissage est exactement le même qu'en cursus classique.
 			</p>
@@ -14,9 +14,9 @@
 		</p>
 
 		<p>
-			<h3> Deux filières sont proposées : </h3>
-			<ul class="main-content">
-				<li> Architecture des systèmes d'information</li> 
+			<h3> Deux parcours sont proposées : </h3>
+			<ul>
+				<li> Infrastructure des systèmes d'information</li> 
 				<li> Ingénieurie logicielle </li>
 			</ul>
 		</p>
@@ -26,29 +26,16 @@
 
 </div>
 
-<div class="col-md-3 col-md-offset-1">
-	<div class="bs-docs-sidebar hidden-print" role="complementary">
-		<h3><span class="label label-default">En savoir plus</span></h3>
-		<ul class="nav bs-docs-sidenav">
-			<li>
-				<li><a href="http://www.utc.fr/formations-enseignements/diplome-ingenieur-apprentissage.php" > Site de l'UTC Apprentissage</a></li>
-				<li><a href="http://www.irfa-apisup.fr/">Site du CFA IRFA API-SUP</a></li>
-				<li><a href="http://www.education.gouv.fr/cid155/se-former-par-l-apprentissage.html">Ministère de l'éducation</a></li>
-				<li><a href="https://www.utc.fr/utc_espacepresse/iso_album/catalogueuv_inge_unieurs_2013-2014_web.pdf" >Catalogue des UVs de l'UTC 2013/2014</a></li>
-			</li>
-		</ul>
-	</div>
-
-</div>
-<div class="row content">
-	<iframe width="640" height="360" src="//www.youtube.com/embed/ZbpulwbeQ5I" frameborder="0" allowfullscreen></iframe>
+<?php require 'sidebar.html';?>
+<div class="row ">
+	<iframe width="640" height="360" src="//www.youtube.com/embed/WjLUfccJfT8" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div class="row content">
-	<h3> Cours dispensés </h3>
+<div class="row">
+	<h3 class="main-content"> Cours dispensés </h3>
 	<p> Chaque année, entre 8 et 10 enseignements sont à choisir parmis cette liste.</p>
 </div>
-<div class="row content">
+<div class="row ">
 	<div class="col-sm-6">
 
 
@@ -257,6 +244,7 @@
 				</TABLE>
 			</br> </br> </br> </br>
 			<TABLE>
+				<p> Attention, les informations ci-dessous sont encore sujettes à des modifications et sont uniquement fournies pour information. </p>
 				<CAPTION> <h4> Enseignements de 3ème année <h4> </caption>
 					<TR> 
 						<TH> Code </TH> 
@@ -266,31 +254,31 @@
 					<TR> 
 						<TD> API11 </TD> 
 						<TD> CS </TD> 
-						<TD> Java EE et architecture WEB </TD> 
+						<TD> Conception et gestion de la chaîne logistique </TD> 
 					</TR> 
 
 					<TR> 
 						<TD> API12 </TD> 
-						<TD> CS </TD> 
-						<TD> Java EE et architecture WEB </TD> 
+						<TD> TM </TD> 
+						<TD> Ingénieurie des systèmes interactifs </TD> 
 					</TR> 
 
 					<TR> 
 						<TD> API13 </TD> 
-						<TD> CS </TD> 
-						<TD> Java EE et architecture WEB </TD> 
+						<TD> TM</TD> 
+						<TD> Méthodes de développement projet et maîtrise de la qaulité</TD> 
 					</TR> 
 
 					<TR> 
 						<TD> API14 </TD> 
-						<TD> CS </TD> 
-						<TD> Java EE et architecture WEB </TD> 
+						<TD> TM </TD> 
+						<TD> Sûreté de fonctionnement des systèmes informatiques </TD> 
 					</TR> 
 
 					<TR> 
 						<TD> API15 </TD> 
-						<TD> CS </TD> 
-						<TD> Java EE et architecture WEB </TD> 
+						<TD> TM </TD> 
+						<TD> Techniques de modélisation, capitalisation et gestion des connaissances </TD> 
 					</TABLE>
 				</TR> 
 			</div>

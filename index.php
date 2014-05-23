@@ -11,7 +11,8 @@
           <div class="col-6 col-sm-6 col-lg-4">
            <img src="static/img/present/livre.png" class="img-rounded" />
            <h2>Vidéos</h2>
-           <p>Les membres de l'administration, les enseignants/chercheurs responsablent de la formation ainsi que les actuels étudiants présentent vous présente les formations par apprentissage en vidéo .</p>
+           <p>Les apprentis et les acteurs administratifs de l'apprentissage vous présentent l'apprentissage à l'UTC en vidéo.</p>
+           <br/> <br/>
            <p><a class="btn btn-default" href="#" role="button">Découvrez les vidéos</a></p>
          </div>
          <div class="col-6 col-sm-6 col-lg-4">
