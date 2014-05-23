@@ -297,10 +297,4 @@
 		</div>
 
 	</div>
-
-
-
-
-
-
 	<?php require 'footer.html'; ?>>
