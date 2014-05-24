@@ -1,8 +1,8 @@
 <?php
 require 'header.php';
-$sql = "SELECT content FROM cms_content WHERE page = 'formation' AND name = 'full_content';";
-$res = $bdd->query($sql);
-$content = utf8_encode($res->fetch()[0]);
+
+updateContent($bdd, 'formation', 'full_content');
+$content = getContent($bdd, 'formation', 'full_content');
 ?>
 <div class="container">
   <div class="row row-right">
@@ -12,17 +12,6 @@ $content = utf8_encode($res->fetch()[0]);
     </div>
     <?php 
     require 'sidebar.html';
-    if (isCo()) {
-      ?>
-      <hr>
-      <h3>Modification du contenu</h3>
-      <form role="form" method="POST">
-      <textarea class="ckeditor" name="content">
-          <?php print $content; ?>
-        </textarea>
-        <input type="submit" value="modifier" class="btn btn-primary center">
-      </form>
-      <?php
-    }
+    showEditor('formation', $content);
     require 'footer.html';
     ?>
