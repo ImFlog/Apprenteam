@@ -1,8 +1,10 @@
 <?php
 session_start();
-	if (isset($_SESSION['connected']))
-		  $_SESSION['connected'] = false;
-	if (isset($_SESSION['ip']))
-                $_SESSION['ip'] = null;
-	header('Location: index.php');
+session_unset();
+session_destroy();
+session_write_close();
+setcookie(session_name(),'',0,'/');
+session_regenerate_id(true);
+header('Location: index.php');
+exit();
 ?>
