@@ -1,4 +1,4 @@
-<?php require 'header.html'; ?>
+<?php require 'header.php'; ?>
 <!-- TODO foreach pour les textes simples -->
 <div class="container">
   <div class="row row-right">
