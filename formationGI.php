@@ -1,4 +1,4 @@
-<?php require 'header.html'; ?>
+<?php require 'header.php'; ?>
 
 <div class="container">
 	<div class="row row-right main-content ">

@@ -1,4 +1,4 @@
-<?php require 'header.html'; ?>
+<?php require 'header.php'; ?>
 
 <div class="container">
 	<div class="col-md-9" id="myCanvasContainer">
@@ -13,7 +13,6 @@
 
  <?php require 'sidebar.html'; ?>
 </div>
-
 <script type="text/javascript" >
 displayCompanies();
 </script>
