@@ -76,6 +76,10 @@ a:hover{
 	padding-top : 130px;
 	background : url(../img/present/entete_2.jpg);
 }
+
+.download-link {
+  color:#787878;
+}
 p{
 	text-align : justify;
 	

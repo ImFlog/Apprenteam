@@ -171,68 +171,73 @@
 						<TH> Dénomination </TH> 
 					</TR> 
 					<TR> 
-						<TD> API01 </TD> 
+						<TD> MAT01 </TD> 
 						<TD> CS </TD> 
-						<TD> Java EE et architecture WEB </TD> 
+						<TD> Choix de matériaux </TD> 
 					</TR> 
 
 					<TR> 
-						<TD> API02  </TD> 
+						<TD> MAT02  </TD> 
 						<TD> CS </TD> 
-						<TD> Architecture des réseaux</TD> 
+						<TD> Mise en forme des matériaux </TD> 
 					</TR>
 
 					<TR> 
-						<TD> API03 </TD> 
-						<TD> TM </TD> 
-						<TD> Capteurs intelligents communicants</TD> 
-					</TR>
-
-					<TR> 
-						<TD> API04  </TD> 
-						<TD> TM </TD> 
-						<TD>  Data warehouse et outils decisionnels </TD> 
-					</TR>
-
-					<TR> 
-						<TD> API05 </TD> 
+						<TD> FPP01 </TD> 
 						<TD> CS </TD> 
-						<TD> Modelisation et simulation de flux </TD> 
+						<TD> Statistiques pour l'ingénieur</TD> 
 					</TR>
 
 					<TR> 
-						<TD> API06  </TD> 
+						<TD> FPP02  </TD> 
 						<TD> CS </TD> 
-						<TD> Analyse des données et data mining </TD> 
+						<TD>  Ingénieurie robuste et surêté de fonctionnement </TD> 
 					</TR>
 
 					<TR> 
-						<TD> API07 </TD> 
+						<TD> TMI04 </TD> 
+						<TD> TM (ou CS) </TD> 
+						<TD> Procédés de fabrication, usinage </TD> 
+					</TR>
+
+					<TR> 
+						<TD> TMI02  </TD> 
 						<TD> TM </TD> 
-						<TD> Architecture des applications internet, programmation web et sécurité</TD> 
+						<TD> Réalisation d'un prototype </TD> 
 					</TR>
 
 					<TR> 
-						<TD> API08 </TD> 
-						<TD> TM </TD> 
-						<TD> IHM et multimédia</TD> 
-					</TR>
-
-
-					<TR> 
-						<TD> API09 </TD> 
+						<TD> MEQ03 </TD> 
 						<TD> CS </TD> 
-						<TD> Méthode et outils pour l'optimisation et la simulation </TD> 
+						<TD> Dynamique des solides </TD> 
+					</TR>
+
+					<TR> 
+						<TD> MAT03 </TD> 
+						<TD> CS </TD> 
+						<TD> Comportements mécaniques des matériaux </TD> 
 					</TR>
 
 
 					<TR> 
-						<TD> API10 </TD> 
-						<TD> TM </TD> 
-						<TD> Méthodes de vérification et validation de logiciel et progrmamation sous linux</TD> 
+						<TD> GPL01 </TD> 
+						<TD> </TD> 
+						<TD>  </TD> 
 					</TR>
 
 
+					<TR> 
+						<TD> TMI03 </TD> 
+						<TD>  </TD> 
+						<TD> </TD> 
+					</TR>
+
+
+					<TR> 
+						<TD> TMI03 </TD> 
+						<TD>  </TD> 
+						<TD> </TD> 
+					</TR>
 				</TABLE>
 			</br> </br> </br> </br>
 			<TABLE>
@@ -243,37 +248,45 @@
 						<TH> Dénomination </TH> 
 					</TR> 
 					<TR> 
-						<TD> API11 </TD> 
-						<TD> CS </TD> 
-						<TD> Java EE et architecture WEB </TD> 
+						<TD> TMI08 </TD> 
+						<TD>  </TD> 
+						<TD>  </TD> 
 					</TR> 
 
 					<TR> 
-						<TD> API12 </TD> 
-						<TD> CS </TD> 
-						<TD> Java EE et architecture WEB </TD> 
+						<TD> MEQ05 </TD> 
+						<TD> </TD> 
+						<TD> 
+						</TD> 
 					</TR> 
 
 					<TR> 
-						<TD> API13 </TD> 
-						<TD> CS </TD> 
-						<TD> Java EE et architecture WEB </TD> 
+						<TD> MEQ04 </TD> 
+						<TD> </TD> 
+						<TD>  </TD> 
 					</TR> 
 
 					<TR> 
-						<TD> API14 </TD> 
-						<TD> CS </TD> 
-						<TD> Java EE et architecture WEB </TD> 
+						<TD>  </TD> 
+						<TD>  </TD> 
+						<TD>  </TD> 
 					</TR> 
 
 					<TR> 
-						<TD> API15 </TD> 
-						<TD> CS </TD> 
-						<TD> Java EE et architecture WEB </TD> 
+						<TD>  </TD> 
+						<TD>  </TD> 
+						<TD>  </TD> 
 					</TABLE>
 				</TR> 
 			</div>
 		</div>
 
+	</div>
+	<div class = "row row-right col-xs-12 col-sm-9 col-sm-offset-1">
+		<p class="main-content"> Acronymes : </p> 
+		<ul class="main-content"> 
+			<li> CS : Connaissance Scientifique. <br/> Enseignements avec approche théorique, fondamentaux </li>
+			<li> TM : Technique et Méthode. <br/> Enseignements avec une approche pratique</li>
+		</ul >
 	</div>
 	<?php require 'footer.html'; ?>
