@@ -18,7 +18,7 @@
          <div class="col-6 col-sm-6 col-lg-4">
           <img src="static/img/present/livre.png" class="img-rounded" />
           <h2>FAQ</h2>
-          <p>Découvrez toutes les réponses à toutes les questions que vous vous posez dans notre foire aux questions.</p>
+          <p>Découvrez les réponses à toutes les questions que vous vous posez dans notre foire aux questions.</p>
           <br /><br /><p><a class="btn btn-default" href="/Apprenteam/faq.php" role="button">Réponses à vos questions</a></p>
         </div>
         <div class="col-6 col-sm-6 col-lg-4">

@@ -66,9 +66,9 @@ function isCo(){
                 <li><a href="/Apprenteam/nosEntreprises.php">Nos Entreprises</a></li>
                 <li><a href="/Apprenteam/faq.php">FAQ</a></li>
                 <?php
-			if(isCo()){ ?>
-				<li><a href="/Apprenteam/deconnexion.php">Déconnexion</a></li>
-		<?php } ?>
+                if(isCo()){ ?>
+                <li><a href="/Apprenteam/deconnexion.php">Déconnexion</a></li>
+                <?php } ?>
               </ul>
             </div>
           </div>
