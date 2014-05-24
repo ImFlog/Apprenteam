@@ -5,8 +5,7 @@ include("bdd_app_user_mySql.php");
 function isCo(){
 
 	if (isset($_SESSION['connected']) AND isset($_SESSION['ip'])){
-
-		if ($_SESSION['connected']== true AND $_SESSION['ip']==$_SERVER['REMOTE_ADDR']){
+		if ($_SESSION['connected'] == true AND $_SESSION['ip'] == $_SERVER['REMOTE_ADDR']){
 			return true;
 		}
 	}
