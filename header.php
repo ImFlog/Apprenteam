@@ -1,3 +1,17 @@
+<?php
+session_start();
+include("bdd_app_user_mySql.php");
+
+function isCo(){
+
+	if (isset($_SESSION['connected']) AND isset($_SESSION['ip'])){
+		if ($_SESSION['connected'] == true AND $_SESSION['ip'] == $_SERVER['REMOTE_ADDR']){
+			return true;
+		}
+	}
+	return false;
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,7 +22,6 @@
   <meta name="author" content="Apprenteam">
   <link rel="shortcut icon" href="/Apprenteam/static/img/logo_small.png">
 
-
   <title>Apprenteam</title>
 
   <!-- Bootstrap -->
@@ -16,9 +29,12 @@
 
   <!-- Custom styles for this template -->
   <link href="static/css/perso.css" rel="stylesheet">
+
+  <!-- Script for nosEntreprises -->
   <script src="static/js/cloud.js" type="text/javascript"></script>
   <script src="static/js/tagcanvas.js" type="text/javascript"></script>
 </head>
+
 <body>
   <div class="masthead">
     <h1 class="mainTitle">Apprentis de l'UTC</h1>
@@ -49,6 +65,10 @@
                 <li><a href="/Apprenteam/info_admin.php">Informations Administratives</a></li>
                 <li><a href="/Apprenteam/nosEntreprises.php">Nos Entreprises</a></li>
                 <li><a href="/Apprenteam/faq.php">FAQ</a></li>
+                <?php
+			if(isCo()){ ?>
+				<li><a href="/Apprenteam/deconnexion.php">Déconnexion</a></li>
+		<?php } ?>
               </ul>
             </div>
           </div>
