@@ -4,6 +4,7 @@ require 'header.php';
 updateContent($bdd, 'info_admin', 'content');
 $content = getContent($bdd, 'info_admin', 'content');
 ?>
+
 <div class="container">
   <div class="row row-right main-content">
     <div class="col-xs-12 col-sm-9">
