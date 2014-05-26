@@ -2,15 +2,46 @@
 session_start();
 include("bdd_app_user_mySql.php");
 
-function isCo(){
-
+function isCo() {
 	if (isset($_SESSION['connected']) AND isset($_SESSION['ip'])){
-		if ($_SESSION['connected'] == true AND $_SESSION['ip'] == $_SERVER['REMOTE_ADDR']){
+		if ($_SESSION['connected'] == true AND $_SESSION['ip'] == $_SERVER['REMOTE_ADDR']) {
+      header('X-XSS-Protection: 0');
 			return true;
 		}
 	}
 	return false;
 }
+
+function updateContent($bdd, $page, $name) {
+  if (isCo() && isset($_POST['content'])) {
+    $sql_update = "UPDATE cms_content SET content = :content WHERE page = :page AND name = :name;";
+    $prepared_update = $bdd->prepare($sql_update);
+    $res = $prepared_update->execute(array(
+      ':content' => $_POST['content'],
+      ':page' => $page,
+      ':name' => $name));
+  }
+}
+
+function getContent($bdd, $page, $name) {
+  $sql_select = "SELECT content FROM cms_content WHERE page = '$page' AND name = '$name';";
+  $res = $bdd->query($sql_select);
+  return $res->fetch()[0];
+}
+
+function showEditor($page, $actual_content) {
+  if (isCo()) {
+    print '<hr>';
+    print '<h3>Modification du contenu</h3>';
+    print '<form role="form" method="POST">';
+    print '  <textarea class="ckeditor" name="content" action="'.$page.'.php">';
+    print       $actual_content;
+    print '  </textarea>';
+    print '  <input type="submit" value="modifier" class="btn btn-primary center">';
+    print '</form>';
+  }
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -66,9 +97,9 @@ function isCo(){
                 <li><a href="/Apprenteam/nosEntreprises.php">Nos Entreprises</a></li>
                 <li><a href="/Apprenteam/faq.php">FAQ</a></li>
                 <?php
-			if(isCo()){ ?>
-				<li><a href="/Apprenteam/deconnexion.php">Déconnexion</a></li>
-		<?php } ?>
+                if(isCo()){ ?>
+                <li><a href="/Apprenteam/deconnexion.php">Déconnexion</a></li>
+                <?php } ?>
               </ul>
             </div>
           </div>
