@@ -2,7 +2,7 @@
 
 <div class="container">
 	<div class="row row-right main-content ">
-		<div class="col-xs-12 col-sm-9">
+		<div class="col-xs-12 col-md-9">
 			<h1> L'apprentissage en informatique </h1>
 
 			<div class="col-sm-4 image"> 

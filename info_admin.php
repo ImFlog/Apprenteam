@@ -1,7 +1,7 @@
 <?php require 'header.php'; ?>
 <div class="container">
   <div class="row row-right main-content">
-    <div class="col-xs-12 col-sm-9">
+    <div class="col-xs-12 col-md-9">
       <h1>Informations administratives</h1>
 
       <div class="main-content">
@@ -43,39 +43,46 @@
     <?php require 'sidebar.html'; ?>
 
     <div class="main-content">
-      <h3>Contacts</h3>
+      <div class ="col-xs-12">
+        <h3>Contacts</h3>
 
-      <div class="col-6 col-sm-6 col-lg-3">
-        <h3>Responsable Apprentissage</h3>
-        <p><b>Valerie Moreau</b> <br/>
-          valerie.moreau@utc.fr
-        </p>
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <h3>Responsable Administrative Apprentissage</h3>
-        <p><b>Karine Sliwak </b><br/>
-          karine.sliwak@utc.fr <br/>
-          03 44 23 49 56
-        </p>
-      </div>
-      <div class="col-6 col-sm-6 col-lg-3">
-        <h3>Responsables pédagogique informatique</h3>
-        <p><b>Dritan Nace </b><br/>
-          dritan.nace@hds.utc.fr
-        </p>
-        <p><b>Benjamin Lussier </b> <br/>
-          benjamin.lussier@hds.utc.fr
-        </p>
-      </div>
+        <div class="col-6 col-sm-6 col-lg-3">
+          <h3>Responsable Apprentissage</h3>
+          <p><b>Valerie Moreau</b> <br/>
+            valerie.moreau@utc.fr
+          </p>
+        </div>
+        <div class="col-6 col-sm-6 col-lg-3">
+          <h3>Responsable Administrative Apprentissage</h3>
+          <p><b>Karine Sliwak </b><br/>
+            karine.sliwak@utc.fr <br/>
+            03 44 23 49 56
+          </p>
+        </div>
+        <div class="col-6 col-sm-6 col-lg-3">
+          <h3>Responsables pédagogique informatique</h3>
+          <p><b>Dritan Nace </b><br/>
+            dritan.nace@hds.utc.fr
+          </p>
+          <p><b>Benjamin Lussier </b> <br/>
+            benjamin.lussier@hds.utc.fr
+          </p>
+        </div>
 
-      <div class="col-6 col-sm-6 col-lg-3">
-        <h3>Responsables pédagogique mécanique</h3>
-        <p><b>Dritan Nace </b><br/>
-          dritan.nace@hds.utc.fr
-        </p>
-        <p><b>Benjamin Lussier </b><br/>
-          benjamin.lussier@hds.utc.fr
-        </p>
+        <div class="col-6 col-sm-6 col-lg-3">
+          <h3>Responsables pédagogique mécanique</h3>
+          <p><b>Dritan Nace </b><br/>
+            dritan.nace@hds.utc.fr
+          </p>
+          <p><b>Benjamin Lussier </b><br/>
+            benjamin.lussier@hds.utc.fr
+          </p>
+        <div class ="row">
+        <?php require 'footer.html'; ?>
       </div>
+        </div>
+
+        </div>
+
     </div>
-    <?php require 'footer.html'; ?>
+  
