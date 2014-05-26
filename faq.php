@@ -121,6 +121,9 @@
           <button class="expand">
             <span class="glyphicon glyphicon-plus"/>
           </button>
+          <button class="hide hidden">
+            <span class="glyphicon glyphicon-minus"/>
+          </button>
           <h3 class="panel-title">Le contrat d’apprentissage est-il obligatoire sur toute sa durée dans la même entreprise ?</h3>
         </div>
         <div class="panel-body hidden">
@@ -177,6 +180,9 @@
           <button class="expand">
             <span class="glyphicon glyphicon-plus"/>
           </button>
+          <button class="hide hidden">
+            <span class="glyphicon glyphicon-minus"/>
+          </button>
           <h3 class="panel-title">L’apprenti peut-il signer un contrat avec une entreprise hors de la région Picardie ?</h3>
         </div>
         <div class="panel-body hidden">
@@ -232,6 +238,9 @@
           <button class="expand">
             <span class="glyphicon glyphicon-plus"/>
           </button>
+	  <button class="hide hidden">
+            <span class="glyphicon glyphicon-minus"/>
+          </button>
           <h3 class="panel-title">Peut-on encore percevoir une bourse si un contrat d’apprentissage est signé ?</h3>
         </div>
         <div class="panel-body hidden">
@@ -257,6 +266,9 @@
           <button class="expand">
             <span class="glyphicon glyphicon-plus"/>
           </button>
+          <button class="hide hidden">
+            <span class="glyphicon glyphicon-minus"/>
+          </button>
           <h3 class="panel-title">Peut-on suivre une filière par la voie de l’apprentissage ?</h3>
         </div>
         <div class="panel-body hidden">
@@ -279,7 +291,7 @@
           Le salaire d’un apprenti procède une borne inférieure qui varie selon l'âge et l’année d’apprentissage. Mais il s’agit uniquement d’une borne inférieure et de nombreux apprentis ont un salaire supérieur à cette borne.<br />
           Cependant, il n’existe pas de règle. Voici la grille de salaire minimum :
           <div style="text-align:center; margin-top: 10px;">
-            <img src="/Apprenteam/static/img/salaires.png" alt="salaire apprentis"/>
+            <img src="/apprenteam/static/img/salaires.png" alt="salaire apprentis"/>
             <br />Source : <a href="http://vosdroits.service-public.fr/particuliers/F10032.xhtml">Service public</a> (25 mars 2014)
           </div>
           <br />
@@ -287,7 +299,7 @@
         </div>
       </div>
       <p class="main-content">
-        Pour tout autre question référez vous à la <a href="/Apprenteam/informations_administratives">section administrative</a> pour obtenir des adresses de contact.
+        Pour tout autre question référez vous à la <a href="/apprenteinfo_admin.php">section administrative</a> pour obtenir des adresses de contact.
       </p>
     </div>
 <?php require 'sidebar.html'; ?>

@@ -1,8 +1,24 @@
 <?php
 include("bdd_app_user_mySql.php");
+require 'header.php';
+if (isset($_SESSION['ip'])) {
+        header('Location: index.php');
+        exit();
+}
 $log = "";
 
+if (!isset($_SESSION['temps']))
+	$_SESSION['temps'] = null;
+if (!isset($_SESSION['non']) OR $_SESSION['non'] > 2)
+	$_SESSION['non'] = 0;
+
 if(isset($_POST['connexion']) AND isset($_POST['email']) AND isset($_POST['pass'])) {
+        if($_SESSION['temps'] != null AND ($_SESSION['temps']+1)%60 < (integer)date("i")){
+                 $_SESSION['non'] = 0;
+                 $_SESSION['temps'] = null;
+        }
+
+
 	$email = $_POST['email'];
 	$pass  = $_POST['pass'];
 		//Check email
@@ -12,13 +28,19 @@ if(isset($_POST['connexion']) AND isset($_POST['email']) AND isset($_POST['pass'
 		$req->execute(array(':email' => $email));
 		$recup = $req->fetch();
 		$pass_post = hash('whirlpool',$pass);
-		if($recup['email'] == $email AND $recup['pass'] == $pass_post){
-			session_start();
+		if($recup['email'] == $email AND $recup['pass'] == $pass_post AND $_SESSION['non'] != 2){
 			$_SESSION['connected'] = true;
 			$_SESSION['ip']  = $_SERVER['REMOTE_ADDR'];
 		}
 		else{
-			$log = "Email ou mot de passe invalide";
+                    if ($_SESSION['temps'] == null){
+                       if ($_SESSION['non'] == 2){
+                             $_SESSION['temps'] = (integer)date("i");
+                             $log = "vous avez échoué 5 fois, veuillez attendre 1 minute afin que vous puissiez avoir de nouveau accès.";
+                       }echo "non";
+                       $_SESSION['non']++;
+                   }
+                  $log .= "<br />Email ou mot de passe non valide";
 		}
 	}
 	else{
@@ -29,11 +51,6 @@ else{
 	$log = "";
 }
 
-if (isset($_SESSION['ip'])) {
-	header('Location: index.php');
-	exit();
-}
-require 'header.php';
 ?>
 
 <div class="container">

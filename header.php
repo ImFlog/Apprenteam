@@ -1,11 +1,12 @@
 <?php
+$ttl = 60;
+session_set_cookie_params($ttl);
 session_start();
 include("bdd_app_user_mySql.php");
 
 function isCo() {
 	if (isset($_SESSION['connected']) AND isset($_SESSION['ip'])){
 		if ($_SESSION['connected'] == true AND $_SESSION['ip'] == $_SERVER['REMOTE_ADDR']) {
-      header('X-XSS-Protection: 0');
 			return true;
 		}
 	}
@@ -26,7 +27,8 @@ function updateContent($bdd, $page, $name) {
 function getContent($bdd, $page, $name) {
   $sql_select = "SELECT content FROM cms_content WHERE page = '$page' AND name = '$name';";
   $res = $bdd->query($sql_select);
-  return $res->fetch()[0];
+  $data =  $res->fetch();
+  return $data['content'];
 }
 
 function showEditor($page, $actual_content) {
@@ -51,7 +53,7 @@ function showEditor($page, $actual_content) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Site de l'assocation UTCéenne Apprenteam.">
   <meta name="author" content="Apprenteam">
-  <link rel="shortcut icon" href="/Apprenteam/static/img/logo_small.png">
+  <link rel="shortcut icon" href="/apprenteam/static/img/logo_small.png">
 
   <title>Apprenteam</title>
 
@@ -80,25 +82,25 @@ function showEditor($page, $actual_content) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="/Apprenteam/index.php" style="padding : 5px"><img src="static/img/logo_40.png" class="img-responsive" alt="Apprenteam"/></a>
-              <a class="navbar-brand" href="/Apprenteam/index.php">Apprenteam</a>
+              <a class="navbar-brand" href="/apprenteam/index.php" style="padding : 5px"><img src="static/img/logo_40.png" class="img-responsive" alt="Apprenteam"/></a>
+              <a class="navbar-brand" href="/apprenteam/index.php">Apprenteam</a>
             </div>
             <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav">
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Formation<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="/Apprenteam/formation.php">Présentation des formations</a></li>
-                    <li><a href="/Apprenteam/formationGI.php">GI - Génie Informatique</a></li>
-                    <li><a href="/Apprenteam/formationGM.php">GM - Génie Mécanique</a></li>
+                    <li><a href="/apprenteam/formation.php">Présentation des formations</a></li>
+                    <li><a href="/apprenteam/formationGI.php">GI - Génie Informatique</a></li>
+                    <li><a href="/apprenteam/formationGM.php">GM - Génie Mécanique</a></li>
                   </ul>
                 </li>
-                <li><a href="/Apprenteam/info_admin.php">Informations Administratives</a></li>
-                <li><a href="/Apprenteam/nosEntreprises.php">Nos Entreprises</a></li>
-                <li><a href="/Apprenteam/faq.php">FAQ</a></li>
+                <li><a href="/apprenteam/info_admin.php">Informations Administratives</a></li>
+                <li><a href="/apprenteam/nosEntreprises.php">Nos Entreprises</a></li>
+                <li><a href="/apprenteam/faq.php">FAQ</a></li>
                 <?php
                 if(isCo()){ ?>
-                <li><a href="/Apprenteam/deconnexion.php">Déconnexion</a></li>
+                <li><a href="/apprenteam/deconnexion.php">Déconnexion</a></li>
                 <?php } ?>
               </ul>
             </div>
