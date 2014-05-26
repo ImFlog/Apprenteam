@@ -242,7 +242,7 @@
 
 
 				</TABLE>
-			</br> </br> </br> </br>
+			</br> 
 			<TABLE>
 				<p> Attention, les informations ci-dessous sont encore sujettes à des modifications et sont uniquement fournies pour information. </p>
 				<CAPTION> <h4> Enseignements de 3ème année <h4> </caption>

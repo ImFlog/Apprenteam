@@ -13,7 +13,7 @@
         </ul>
         <h3>Diversité de la formation</h3>
         <p class="main-content">
-          Trois type de cours sont enseignés dans la formation. Tout comme dans la formation initiale:
+          Trois type de cours sont enseignés dans la formation.
           <ul class="main-content">
             <li>Les Connaissances Scientifiques(CS) qui correspondent aux matières théoriques.</li>
             <li>Les Techniques et Méthodes(TM) qui correspondent aux matières techniques et pratiques.</li>
@@ -24,15 +24,16 @@
             L'individualisation du parcours est un des piliers fondateurs de la pédagogie de l'UTC.<br />
             Chaque apprenti quittera ainsi sa formation fort de compétences qui lui sont propres, tout en pouvant valoriser trois années d'expérience.<br/>
             <br />
-            Deux spécialitées différentes sont disponibles en section apprentissage:</p>
+            Deux diplômes d'ingénieur sont disponibles en section apprentissage:</p>
             <ul class="main-content">
-              <li><a href="/Apprenteam/formationGI.php">Le département informatique</a></li>
-              <li><a href="/Apprenteam/formationGM.php">Le département mécanique</a></li>
+              <li><a href="/Apprenteam/formationGI.php">Le diplôme d'ingénieur en informatique</a></li>
+              <li><a href="/Apprenteam/formationGM.php">Le diplôme d'ingénieur en mécanique</a></li>
             </ul>
             <p class="main-content">
-              Visitez les pages dédiées pour plus d'information sur le contenu et les spécificités qui y sont associés.
+              Visitez les pages dédiées pour plus d'information depuis le menu. 
             </p>
             <h3>Rythme d'alternance</h3>
+            <br/>
             <img class="media-object" src="/Apprenteam/static/img/rythme.png" alt="Rythme apprentissage"/>
             <img class="media-object" src="/Apprenteam/static/img/rythme_legend.png" alt="Légende" style="float: right; margin-right: 25px;"/>
             <br /><br />

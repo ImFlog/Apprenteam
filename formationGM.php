@@ -37,8 +37,7 @@
 
 <div class="row main-content">
 	<h3> Cours dispensés </h3>
-	<p> Chaque année, entre 8 et 10 enseignements sont à choisir parmis cette liste.</p>
-</div>
+	</div>
 <div class="row main-content">
 	<div class="col-sm-6">
 
@@ -158,6 +157,12 @@
 					<TD> Systèmes asservis linéaires : analyse et commande</TD> 
 				</TR> 
 
+				<TR> 
+					<TD> MEQ01 </TD> 
+					<TD> TM </TD> 
+					<TD> Modélisation géometrique</TD> 
+				</TR> 
+
 
 			</TABLE> 
 		</div>
@@ -173,7 +178,7 @@
 					<TR> 
 						<TD> MAT01 </TD> 
 						<TD> CS </TD> 
-						<TD> Choix de matériaux </TD> 
+						<TD> Choix de matériaux et procédés </TD> 
 					</TR> 
 
 					<TR> 
@@ -191,19 +196,19 @@
 					<TR> 
 						<TD> FPP02  </TD> 
 						<TD> CS </TD> 
-						<TD>  Ingénieurie robuste et surêté de fonctionnement </TD> 
+						<TD>  Fiabilité et ingénieurie robuste des produits </TD> 
 					</TR>
 
 					<TR> 
 						<TD> TMI04 </TD> 
-						<TD> TM (ou CS) </TD> 
-						<TD> Procédés de fabrication, usinage </TD> 
+						<TD> TM </TD> 
+						<TD> Technologie de fabrication </TD> 
 					</TR>
 
 					<TR> 
 						<TD> TMI02  </TD> 
 						<TD> TM </TD> 
-						<TD> Réalisation d'un prototype </TD> 
+						<TD> Réalisation de prototypes </TD> 
 					</TR>
 
 					<TR> 
@@ -221,25 +226,35 @@
 
 					<TR> 
 						<TD> GPL01 </TD> 
-						<TD> </TD> 
-						<TD>  </TD> 
+						<TD> TM </TD> 
+						<TD> Gestion de production et ERP </TD> 
 					</TR>
 
+					<TR> 
+						<TD> MEQ02 </TD> 
+						<TD> TM </TD> 
+						<TD> Modélisation numérique niveau 1</TD> 
+					</TR>
 
 					<TR> 
 						<TD> TMI03 </TD> 
-						<TD>  </TD> 
-						<TD> </TD> 
+						<TD> TM </TD> 
+						<TD> Ergonomie des situations de travail </TD> 
 					</TR>
 
+					<TR> 
+						<TD> TMI01 </TD> 
+						<TD> TM </TD> 
+						<TD> Conception niveau 2 </TD> 
+					</TR>
 
 					<TR> 
-						<TD> TMI03 </TD> 
-						<TD>  </TD> 
-						<TD> </TD> 
+						<TD> TMI05 </TD> 
+						<TD> TM </TD> 
+						<TD> Fabrication assistée par ordinateur et machines à commande numérique</TD> 
 					</TR>
 				</TABLE>
-			</br> </br> </br> </br>
+			</br> 
 			<TABLE>
 				<CAPTION> <h4> Enseignements de 3ème année <h4> </caption>
 					<TR> 
@@ -248,45 +263,64 @@
 						<TH> Dénomination </TH> 
 					</TR> 
 					<TR> 
-						<TD> TMI08 </TD> 
-						<TD>  </TD> 
-						<TD>  </TD> 
+						<TD> TMI07 </TD> 
+						<TD> TM </TD> 
+						<TD> Capteurs et instrumentation </TD> 
 					</TR> 
 
 					<TR> 
 						<TD> MEQ05 </TD> 
-						<TD> </TD> 
-						<TD> 
-						</TD> 
+						<TD> CS </TD> 
+						<TD> MMdélisation numérique niveau 2</TD> 
 					</TR> 
 
 					<TR> 
 						<TD> MEQ04 </TD> 
-						<TD> </TD> 
-						<TD>  </TD> 
+						<TD> CS</TD> 
+						<TD> Mécanique des fluides </TD> 
 					</TR> 
 
 					<TR> 
-						<TD>  </TD> 
-						<TD>  </TD> 
-						<TD>  </TD> 
+						<TD> FPP03 </TD> 
+						<TD> CS </TD> 
+						<TD> Ingénieurie robuste et maitrise statistique des procédés </TD> 
 					</TR> 
 
 					<TR> 
-						<TD>  </TD> 
-						<TD>  </TD> 
-						<TD>  </TD> 
+						<TD> TMI09 </TD> 
+						<TD> TM </TD> 
+						<TD> International Workshop </TD> 
+					</TR> 
+
+					<TR> 
+						<TD> GPL02 </TD> 
+						<TD> CS </TD> 
+						<TD> Recherche operationnelle en productique </TD> 
+
+						<TR> 
+							<TD> GPL03 </TD> 
+							<TD> TM </TD> 
+							<TD> Système de production et usine numérique </TD>
+
+
+						</TR> 
+
+						<TR> 
+							<TD> TMI08 </TD> 
+							<TD> TM </TD> 
+							<TD> Conception niveau 3 </TD> 
+						</TR>
 					</TABLE>
-				</TR> 
-			</div>
-		</div>
 
-	</div>
-	<div class = "row row-right col-xs-12 col-sm-9 col-sm-offset-1">
-		<p class="main-content"> Acronymes : </p> 
-		<ul class="main-content"> 
-			<li> CS : Connaissance Scientifique. <br/> Enseignements avec approche théorique, fondamentaux </li>
-			<li> TM : Technique et Méthode. <br/> Enseignements avec une approche pratique</li>
-		</ul >
-	</div>
-	<?php require 'footer.html'; ?>
+				</div>
+			</div>
+
+		</div>
+		<div class = "row row-right col-xs-12 col-xs-offset-1">
+			<p class="main-content"> Catégories : </p> 
+			<ul class="main-content"> 
+				<li> CS : Connaissance Scientifique. <br/> </li>
+				<li> TM : Technique et Méthode. <br/></li>
+			</ul >
+		</div>
+		<?php require 'footer.html'; ?>
