@@ -8,7 +8,7 @@
           <p style="text-align : right;"><a href="/Apprenteam/formation.php">Futurs apprentis, découvrez nos formations...</a></p>
         </div>
         <div class="row">
-          <div class="col-6 col-sm-6 col-lg-4">
+          <div class="col-12 col-sm-6 col-lg-4">
            <img src="static/img/gears.jpg" class="img-rounded" />
            <div class="credit_photo">Credit photo : <a href="https://www.flickr.com/photos/72637449@N06/"> mout1234 </a> </div>
 
@@ -17,14 +17,14 @@
            <br/>
            <p><a class="btn btn-default" href="formationGM.php" role="button">Cliquez-ici</a></p>
          </div>
-         <div class="col-6 col-sm-6 col-lg-4">
+         <div class="col-12 col-sm-6 col-lg-4">
           <img src="static/img/computers_index.jpg" class="img-rounded" />
           <h2 style ="font-size:23px">Ingénieur en informatique</h2>
           <p>Plutôt tenté par l'informatique ? Vous trouverez ici des informations concernant le diplôme d'ingénieur en informatique</p>
           <br/>
           <p><a class="btn btn-default" href="formationGI.php" role="button">Cliquez-ici</a></p>
         </div>
-        <div class="col-6 col-sm-6 col-lg-4">
+        <div class="col-12 col-sm-6 col-lg-4">
           <img src="static/img/present/livre.png" class="img-rounded" />
           <h2 style ="font-size:23px">Des questions ? </h2>
           <p>Vous vous posez des questions sur l'apprentissage ? Nous avons répondu à toutes vos questions ici !</p>
