@@ -299,7 +299,7 @@
         </div>
       </div>
       <p class="main-content">
-        Pour tout autre question référez vous à la <a href="/apprenteinfo_admin.php">section administrative</a> pour obtenir des adresses de contact.
+        Pour tout autre question référez vous à la <a href="/appream/info_admin.php">section administrative</a> pour obtenir des adresses de contact.
       </p>
     </div>
 <?php require 'sidebar.html'; ?>
